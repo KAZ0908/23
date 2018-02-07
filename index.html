@@ -18,7 +18,7 @@
           <span class="keyword">岡山市｜一級建築士｜注文住宅・店舗・医療施設の設計・直営工事会社</span>
           <a href="" class="header-info on-pc">資料請求</a>
           <a href="" class="header-info on-pc">お問い合わせ</a>
-          <button class="nav-btn on-sp"><img src="http://www.ichiekensho.co.jp/wp/wp-content/themes/ichie/img/common/btn_menu.svg" alt=""></button>
+          <button id="btn-nav-open" class="nav-btn on-sp"><img src="http://www.ichiekensho.co.jp/wp/wp-content/themes/ichie/img/common/btn_menu.svg" alt=""></button>
         </div>
       </div>
       <div class="header-main">
@@ -75,9 +75,9 @@
             </ul>
           </nav>
 
-          <div class="sp-menu on-sp active">
+          <div id="sp-menu" class="sp-menu on-sp">
             <div class="sp-menu-top">
-              <button>
+              <button id="btn-nav-close">
                 <img src="http://www.ichiekensho.co.jp/wp/wp-content/themes/ichie/img/common/btn_close.svg" alt="">
               </button>
             </div>
@@ -222,5 +222,7 @@
       </p>
     </footer>
   </div>
+  <script src="sript.js"></script>
+  <script src="anime.min.js"></script>
 </body>
 </html>
